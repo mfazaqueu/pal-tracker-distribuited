@@ -14,6 +14,9 @@ buildscript {
         junitVersion = "4.12"
         okhttpVersion = "3.12.0"
         jsonPathVersion = "2.4.0"
+        springCloudVersion = "Finchley.RELEASE"
+        springCloudServicesClientLibrariesVersion = "2.0.3.RELEASE"
+        springCloudCommons = "2.0.0.RELEASE"
     }
 
     repositories {
@@ -25,6 +28,7 @@ buildscript {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
         classpath "mysql:mysql-connector-java:$mysqlVersion"
     }
+
 }
 
 apply plugin: DependenciesGraphPlugin
